@@ -1,0 +1,102 @@
+.header {
+    height: 55px;
+    /* We used flexbox so that we can set max width and
+        spread spaces between
+        elements evenly */
+    display: flex;
+    flex-direction: row;
+    /* To spread the elements horizontally we use
+        justify content (just remove the line if you wanna see
+        what i mean */
+    justify-content: space-between;
+}
+.left-section {
+    
+    display: flex;
+    align-items: center;
+}
+.menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.youtube-logo {
+    height: 20px;
+    margin-left: 4px;
+}
+.middle-section {
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 500px;
+}
+.search::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+
+.search-bar {
+    flex: 1;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(195, 190, 190);
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+
+}
+.search-button {
+    height: 39px;
+    border-color: rgb(195, 190, 190);
+    border-style: solid;
+    border-width: 1px;
+    margin-left: -1px;
+    width: 65px;
+    background-color: #f7f7f7;
+}
+.search-icon {
+    height: 25px;
+    
+    
+}
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.voice-search-icon {
+    margin-top: 7px;
+    margin-left: 7px
+}
+.right-section {
+    
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+
+}
+.video-upload-icon {
+    height: 24px;
+}
+.youtube-apps-icon {
+    height: 24px;
+}
+.notification-icon {
+    height: 24px;
+}
+.profile-picture {
+   height: 34px;
+   border-radius: 17px;
+   margin-right: 24px;
+}
