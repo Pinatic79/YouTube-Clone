@@ -7,6 +7,7 @@
 }
 .thumbnail-row {
   margin-bottom: 10px;
+  position: relative;
 }
 .channel-picture {
   vertical-align: top;
@@ -35,4 +36,20 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+.video-time {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 5px;
+  
 }
